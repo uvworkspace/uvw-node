@@ -55,5 +55,9 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env*
 
+# Misc
+*.swp
+*~
+Thumbs.db
