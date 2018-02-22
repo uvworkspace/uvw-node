@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = Object.assign({},
-  require('uvwlib'),
-  require('./lib/utils')
-);
+const uvwlib = require('uvwlib');
 
+module.exports = uvwlib.assign({},
+  uvwlib,
+  require('./lib/utils'));

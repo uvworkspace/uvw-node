@@ -2,5 +2,5 @@
 
 Gather some common node.js utils here
 
-  - for quick references, instead of repeat googling/greping
+  - for quick references, instead of repeatedly googling/greping
 

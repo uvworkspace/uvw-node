@@ -1,12 +1,20 @@
 {
   "name": "uvw-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Some node.js utilities for uvw",
   "main": "index.js",
   "repository": "https://github.com/uvworkspace/uvw-node",
   "author": "uvworkspace <uvw@mytraces.net>",
   "license": "MIT",
+  "scripts": {
+    "test": "tap test/*.test.js"
+  },
   "dependencies": {
-    "uvwlib": "^0.0.2"
+    "shelljs": "^0.8.1",
+    "uvwlib": "^0.0.4"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.5.0",
+    "tap": "^11.1.0"
   }
 }
