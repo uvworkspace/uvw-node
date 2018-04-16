@@ -1,6 +1,6 @@
 {
   "name": "uvw-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some node.js utilities for uvw",
   "main": "index.js",
   "repository": "https://github.com/uvworkspace/uvw-node",
@@ -10,7 +10,6 @@
     "test": "tap test/*.test.js"
   },
   "dependencies": {
-    "better-sqlite3": "^4.1.0",
     "html-to-text": "^4.0.0",
     "live-server": "^1.2.0",
     "marked": "^0.3.17",
